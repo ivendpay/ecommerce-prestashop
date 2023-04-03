@@ -1,0 +1,359 @@
+/* poppins-regular - latin-ext_latin_devanagari */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/poppins-v20-latin-ext_latin_devanagari-regular.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('../fonts/poppins-v20-latin-ext_latin_devanagari-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/poppins-v20-latin-ext_latin_devanagari-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/poppins-v20-latin-ext_latin_devanagari-regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/poppins-v20-latin-ext_latin_devanagari-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/poppins-v20-latin-ext_latin_devanagari-regular.svg#Poppins') format('svg'); /* Legacy iOS */
+}
+/* poppins-600 - latin-ext_latin_devanagari */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  src: url('../fonts/poppins-v20-latin-ext_latin_devanagari-600.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('../fonts/poppins-v20-latin-ext_latin_devanagari-600.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/poppins-v20-latin-ext_latin_devanagari-600.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/poppins-v20-latin-ext_latin_devanagari-600.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/poppins-v20-latin-ext_latin_devanagari-600.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/poppins-v20-latin-ext_latin_devanagari-600.svg#Poppins') format('svg'); /* Legacy iOS */
+}
+
+:root {
+    --color-background: rgba(0, 0, 0, .75);
+    --color-primary: #2522BA;
+    --font-family-base: Poppins, sans-serif;
+    --font-size-h1: 1.25rem;
+    --font-size-h2: 1rem;
+}
+
+.pop * {
+  font-family: var(--font-family-base);
+    color: #000000;
+}
+
+.pop address {
+    font-style: normal;
+}
+
+.pop button {
+    border: 0;
+    color: inherit;
+    cursor: pointer;
+    font: inherit;
+}
+
+.pop fieldset {
+    border: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: none;
+    padding: 0;
+}
+
+.pop h1 {
+    font-size: 1.25rem;
+    font-size: var(--font-size-h1);
+    line-height: 1.2;
+    margin-top: 0;
+    margin-bottom: 1.5em;
+}
+
+.pop h2 {
+    font-size: 1rem;
+    font-size: var(--font-size-h2);
+    line-height: 1.2;
+    margin-top: 0;
+    margin-bottom: 0.5em;
+    text-align: center;
+}
+.pop h3 {
+    font-size: 16px;
+    font-weight: 600;
+    margin:0;
+}
+
+.pop legend {
+    font-weight: 600;
+    margin-bottom: 0.5em;
+    padding: 0;
+    text-align: center;
+    background: none;
+}
+
+.pop input {
+    border: 0;
+    color: inherit;
+    font: inherit;
+}
+
+.pop input[type="radio"] {
+    accent-color: var(--color-primary);
+    outline: none !important;
+}
+
+.pop table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.pop tbody {
+    color: #000000;
+}
+
+.color-blue{
+    color: #2522ba;
+}
+
+.pop label img {
+    width: 25px;
+}
+
+.pop td {
+    padding-top: 0.125em;
+    padding-bottom: 0.125em;
+}
+
+.pop tbody {
+    font-weight: 600;
+}
+
+.pop .align {
+    display: grid;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    justify-items: center;
+    place-items: center;
+}
+
+.pop .button {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: var(--color-primary);
+    border-radius: 999em;
+    color: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    grid-gap: 0.5em;
+    gap: 0.5em;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding-top: 0.75em;
+    padding-bottom: 0.75em;
+    padding-left: 1em;
+    padding-right: 1em;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.pop .button:focus,
+.pop .button:hover {
+    background-color: #000000;
+}
+
+.pop .button--full {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.pop .card {
+    border-radius: 1em;
+    background-color: #f5f5f5;
+    color: #fff;
+    padding: 1em;
+}
+
+.pop .form {
+    display: grid;
+    grid-gap: 2em;
+    gap: 2em;
+}
+
+.pop .form__radios {
+    display: grid;
+    grid-gap: 1em;
+    gap: 0.3em;
+}
+
+.pop .form__radio {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    border: 1px solid rgba(0, 0, 0, 0.0625);
+    padding: 5px;
+}
+
+.pop .form__radio label {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    grid-gap: 1em;
+    gap: 1em;
+    text-align: left;
+    margin-bottom: 0;
+}
+.pop .form__radio label span {
+  display: inline-block;
+  width: 90%;
+}
+
+.pop .header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.pop .icon {
+    height: 1em;
+    display: inline-block;
+    fill: currentColor;
+    width: 1em;
+    vertical-align: middle;
+}
+
+.pop .form-input {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: #fefdfe;
+    border-radius: 1em;
+    -webkit-box-shadow: 0 0 1em rgb(0 0 0 / 10%);
+    box-shadow: 0 0 1em rgb(0 0 0 / 10%);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 1em;
+    width: 100%;
+    margin-bottom: 10px;
+    color:#000000;
+}
+
+.pop {
+    background-color: #ffffff;
+    border-radius: 2em;
+    -webkit-box-shadow: 0 0 1em rgba(0, 0, 0, 0.0625);
+    box-shadow: 0 0 1em rgba(0, 0, 0, 0.0625);
+    width: 375px;
+    max-width: 100%;
+    padding: 2em;
+    margin-left: auto;
+    margin-right: auto;
+}
+.pop.pop-choose-currency {
+    width: 100%;
+    border-radius: 0;
+    padding: 0;
+    background: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.pop .disabled{
+    opacity: 20%;
+}
+
+.pop #step-1 table {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.pop #step-3 {
+    text-align: center;
+}
+
+.pop .amount{
+    font-weight: 600;
+    font-size: 20px;
+    color: #2522BA;
+}
+.pop a {
+    text-decoration: none;
+}
+
+.pop .address{
+    font-size:12px;
+    font-weight: 600;
+}
+
+.pop .countdown{
+    font-size:25px;
+}
+
+.pop .copyright{
+    padding-top: 20px;
+    border-top: 1px solid #cfcfcf;
+    font-size: 12px;
+    margin-top: 40px;
+}
+.pop .copyright img {
+    width: 100px;
+}
+
+#search-crypto-ivendpay-div {
+  display: block;
+  margin-bottom: 20px;
+  width: 100%
+}
+
+#search-crypto-ivendpay {
+  width: 100%;
+  text-align: center
+}
+
+.showMoreCoinsIvendPay.no-clicked {
+  display: none
+}
+
+
+#payment .payment_methods li img{
+    max-height: 100% !important;
+}
+
+
+#payment .payment_methods li .payment_box fieldset span{
+    font-size: 14px !important;
+    font-weight: 600 !important;
+}
+
+input[type=text] {
+    padding: 0.6180469716em;
+    background-color: #f2f2f2;
+    color: #43454b;
+    border: 0;
+    -webkit-appearance: none;
+    box-sizing: border-box;
+    font-weight: 400;
+    box-shadow: inset 0 1px 1px rgb(0 0 0 / 13%);
+}
+
+.pop h2.or-pay-with {
+    margin-bottom: 0;
+}
